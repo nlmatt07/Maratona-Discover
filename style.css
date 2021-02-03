@@ -111,9 +111,22 @@ table tbody td {
   padding: 1rem 2rem;
 }
 
+td.description {
+  color: var(--dark-blue)
+}
 
+td.income {
+  color: #12a454;
+}
+
+td.expense {
+  color: #e92929;
+}
 
 
 footer {
   text-align: center;
+  padding: 4rem 0  2rem;
+  color: var(--dark-blue);
+  opacity: 0.6;
 }
