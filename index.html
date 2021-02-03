@@ -1,70 +1,78 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>dev.finance$</title>
-  </head>
 
-  <body>
-    <header>
-      <h1 id="logo">dev.finance$</h1>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>dev.finance$</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap" rel="stylesheet">
 
-    <main>
-      <section id="balance">
-        <h2>Balanço</h2>
+</head>
 
-        <div class="card">
-          <h3>Entradas</h3>
-          <p>R$ 5.000,00</p>
-        </div>
+<body>
+  <header>
+    <h1 id="logo">dev.finance$</h1>
+  </header>
 
-        <div class="card">
-          <h3>Saídas</h3>
-          <p>R$ 2.000,00</p>
-        </div>
+  <main class="container">
+    <section id="balance">
+      <h2>Balanço</h2>
 
-        <div class="card">
-          <h3>Total</h3>
-          <p>R$ 3.000,00</p>
-        </div>
-      </section>
+      <div class="card">
+        <h3>Entradas</h3>
+        <p>R$ 5.000,00</p>
+      </div>
 
-      <section id="transaction">
-        <h2>Transações</h2>
+      <div class="card">
+        <h3>Saídas</h3>
+        <p>R$ 2.000,00</p>
+      </div>
 
-        <table id="data-table">
-          <thead>
-            <tr>
-              <th>Descrição</th>
-              <th>Valor</th>
-              <th>Data</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Luz</td>
-              <td>- R$ 500,00</td>
-              <td>23/01/2021</td>
-            </tr>
+      <div class="card total">
+        <h3>Total</h3>
+        <p>R$ 3.000,00</p>
+      </div>
+    </section>
 
-            <tr>
-              <td>Criação de Site</td>
-              <td>- R$ 5.000,00</td>
-              <td>23/01/2021</td>
-            </tr>
+    <section id="transaction">
+      <h2>Transações</h2>
 
-            <tr>
-              <td>Internet</td>
-              <td>- R$ 500,00</td>
-              <td>23/01/2021</td>
-            </tr>
-          </tbody>
-        </table>
-      </section>
-    </main>
+      <table id="data-table">
+        <thead>
+          <tr>
+            <th>Descrição</th>
+            <th>Valor</th>
+            <th>Data</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Luz</td>
+            <td>- R$ 500,00</td>
+            <td>23/01/2021</td>
+          </tr>
 
-    <footer><p>dev.finance$</p></footer>
-  </body>
+          <tr>
+            <td>Criação de Site</td>
+            <td>- R$ 5.000,00</td>
+            <td>23/01/2021</td>
+          </tr>
+
+          <tr>
+            <td>Internet</td>
+            <td>- R$ 500,00</td>
+            <td>23/01/2021</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>dev.finance$</p>
+  </footer>
+</body>
+
 </html>
