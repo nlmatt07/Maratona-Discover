@@ -74,12 +74,45 @@ header {
 .card.total {
 
   background: #49aa26;
-  color: #fff
+  color: white;
 }
 
 #data-table {
   width: 100%;
+  
+  border-spacing: 0 0.5rem;
+  color: #969cb3;
+
 }
+
+table thead th:first-child, 
+table tbody tr:first-child {
+border-radius: 0.25rem 0 0 0.25rem;
+}
+
+
+table th {
+  background: white;
+  font-weight: normal;
+  padding: 1rem 2rem;
+  text-align: left;
+}
+
+table tr {
+  opacity: 0.7;
+}
+
+table tr:hover {
+  opacity: 1;
+}
+
+table tbody td {
+  background: white;
+  padding: 1rem 2rem;
+}
+
+
+
 
 footer {
   text-align: center;
