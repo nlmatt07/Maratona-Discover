@@ -13,31 +13,36 @@
 
 <body>
   <header>
-    <h1 id="logo">dev.finance$</h1>
+    <img src="assets/logo.svg" alt="Logo Dev.finances">
   </header>
 
   <main class="container">
     <section id="balance">
-      <h2>Balanço</h2>
+      <h2 class="sr-only">Balanço</h2>
 
       <div class="card">
-        <h3>Entradas</h3>
+        <h3>
+        <span>Entradas</span> 
+        <img src="assets/income.svg" alt="Imagem de Entradas">
+        </h3>
         <p>R$ 5.000,00</p>
       </div>
 
       <div class="card">
-        <h3>Saídas</h3>
+        <span>Saídas</span> 
+        <img src="assets/minus.svg" alt="Imagem de Saídas">
         <p>R$ 2.000,00</p>
       </div>
 
-      <div class="card total class="description"">
-        <h3>Total</h3>
+      <div class="card total">
+        <span>Total</span> 
+        <img src="assets/total.svg" alt="Imagem de Total">
         <p>R$ 3.000,00</p>
       </div>
     </section>
 
     <section id="transaction">
-      <h2>Transações</h2>
+      <h2 class="sr-only">Transações</h2>
 
       <table id="data-table">
         <thead>
